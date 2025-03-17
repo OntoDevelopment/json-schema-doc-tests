@@ -6,7 +6,7 @@
     "scripts": {
         "tests": "vitest"
     },
-    "homepage": "https://ontodevelopment.github.io/json-schema-doc",
+    "homepage": "https://github.com/OntoDevelopment/json-schema-doc",
     "dependencies": {
         "json-schema-doc": "github:OntoDevelopment/json-schema-doc",
         "vitest": "^3.0.8"
