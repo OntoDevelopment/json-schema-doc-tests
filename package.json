@@ -1,14 +1,14 @@
 {
     "name": "json-schema-doc-tests",
-    "description": "Tests for json-schema-doc",
+    "description": "Tests for json-schema-doc-ts",
     "type": "module",
     "main": "./src/main.js",
     "scripts": {
         "tests": "vitest"
     },
-    "homepage": "https://github.com/OntoDevelopment/json-schema-doc",
+    "homepage": "https://github.com/OntoDevelopment/json-schema-doc-ts",
     "dependencies": {
-        "json-schema-doc": "github:OntoDevelopment/json-schema-doc",
-        "vitest": "^3.0.8"
+        "vitest": "^3.0.8",
+        "json-schema-doc-ts": "github:OntoDevelopment/json-schema-doc-ts"
     }
 }

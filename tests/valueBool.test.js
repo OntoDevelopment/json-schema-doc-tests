@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { JSONSchemaMarkdownDoc } from "json-schema-doc";
+import { JSONSchemaMarkdownDoc } from "json-schema-doc-ts";
 
 test("valueBool true", () => {
     expect(new JSONSchemaMarkdownDoc({}).valueBool(true)).toBe("true");

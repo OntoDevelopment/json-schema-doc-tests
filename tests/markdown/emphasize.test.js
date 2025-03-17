@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { JSONSchemaMarkdownDoc } from "json-schema-doc";
+import { JSONSchemaMarkdownDoc } from "json-schema-doc-ts";
 
 test("bold without id", () => {
     expect((new JSONSchemaMarkdownDoc({})).bold("test")).toBe("**test**");

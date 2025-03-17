@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { JSONSchemaMarkdownDoc } from "json-schema-doc";
+import { JSONSchemaMarkdownDoc } from "json-schema-doc-ts";
 
 test("hasProperty name", () => {
     const schema = { name: "test" };
